@@ -551,7 +551,7 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jLabel2" min="-2" pref="99" max="-2" attributes="0"/>
-                          <Component id="textTitre" min="-2" pref="135" max="-2" attributes="0"/>
+                          <Component id="txt_Nom" min="-2" pref="135" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
@@ -623,7 +623,7 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="textTitre" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="txt_Nom" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
                           <Component id="textTitre1" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
                           <Component id="textTitre2" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
                           <Component id="textTitre5" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
@@ -646,7 +646,7 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JTextField" name="textTitre">
+            <Component class="javax.swing.JTextField" name="txt_Nom">
             </Component>
             <Component class="javax.swing.JTextField" name="textTitre1">
             </Component>

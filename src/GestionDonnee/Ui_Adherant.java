@@ -48,7 +48,7 @@ public class Ui_Adherant extends javax.swing.JFrame {
         jButton15 = new javax.swing.JButton();
         jButton16 = new javax.swing.JButton();
         jPanel9 = new javax.swing.JPanel();
-        textTitre = new javax.swing.JTextField();
+        txt_Nom = new javax.swing.JTextField();
         textTitre1 = new javax.swing.JTextField();
         textTitre2 = new javax.swing.JTextField();
         textTitre5 = new javax.swing.JTextField();
@@ -391,7 +391,7 @@ public class Ui_Adherant extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(textTitre, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txt_Nom, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(textTitre1, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -447,7 +447,7 @@ public class Ui_Adherant extends javax.swing.JFrame {
                     .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(textTitre, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txt_Nom, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(textTitre1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(textTitre2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(textTitre5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -654,7 +654,7 @@ public class Ui_Adherant extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAJouter;
-    private javax.swing.JButton btnAJouterModification;
+    public javax.swing.JButton btnAJouterModification;
     private javax.swing.JButton btnAnnuler;
     private javax.swing.JButton btnAnnuler2;
     private javax.swing.JButton btnAnnuler3;
@@ -697,9 +697,9 @@ public class Ui_Adherant extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField1;
     private GestionDonnee.RoundedPanel roundedPanel1;
     private GestionDonnee.RoundedPanel roundedPanel2;
-    private javax.swing.JTextField textTitre;
     private javax.swing.JTextField textTitre1;
     private javax.swing.JTextField textTitre2;
     private javax.swing.JTextField textTitre5;
+    private javax.swing.JTextField txt_Nom;
     // End of variables declaration//GEN-END:variables
 }
